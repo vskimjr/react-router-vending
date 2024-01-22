@@ -1,24 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
     <nav className="NavBar">
       <ul>
       <li>
-        <Link to="/darkchocolate">
+        <NavLink to="/darkchocolate">
           Dark Chocolate
-        </Link>
+        </NavLink>
       </li>
       <li>
-        <Link to="/whitechocolate">
+        <NavLink to="/whitechocolate">
           White Chocolate
-        </Link>
+        </NavLink>
       </li>
       <li>
-        <Link to="/milkchocolate">
+        <NavLink to="/milkchocolate">
           Milk Chocolate
-        </Link>
+        </NavLink>
       </li>
       </ul>
     </nav>

@@ -6,7 +6,14 @@ import WhiteChocolate from './WhiteChocolate';
 import MilkChocolate from './MilkChocolate';
 import NavBar from './NavBar';
 
-
+/** App for vending machine
+ *
+ * Props:
+ * - none
+ *
+ * State:
+ * - none
+ */
 function App() {
   return (
     <div className="App">
@@ -18,6 +25,7 @@ function App() {
         <Route path="/milkchocolate" element={<MilkChocolate/>} />
       </Routes>
       </BrowserRouter>
+
     </div>
   );
 }
